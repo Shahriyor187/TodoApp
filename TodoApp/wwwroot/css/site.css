@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card-extension {
+    width: 550px;
+    height: 90vh;
+    margin: 2% auto;
+    background-color: #f8f8f8;
+    box-shadow: 6px 9px 13px 0px rgba(0,0,0,0.1);
+}
+
+.custom-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    user-select: none;
+}
